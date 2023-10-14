@@ -1,0 +1,85 @@
+/* buka google font, cari font, slect, ada impor and link kan... pilih yang impor, copy tanpa style, trs
+copas di css ini */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap'); 
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pixelify Sans', cursive;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+      background-image: url(asset/1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    color: black;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dark-mode {
+    color: white;
+    background-image: url(asset/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.mode{
+    position: absolute;
+    right: 0;
+    top: 630px;
+    width: 130px;
+
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 680%;
+    margin: 10px;
+    padding: 50px 0px 50px 0px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-container img{
+    width: 150px;
+    border-radius: 50px;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #fbf8f8;
+}
+.link-item{
+    width: 50%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    color: #CD5C08;
+    text-decoration: none;
+    background-color: rgb(252, 248, 146);
+
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+.link-item p {
+    margin-right: 60px;
+}
